@@ -1,0 +1,78 @@
+body {
+    background: #FFF none repeat scroll 0% 0%;
+    color: #666;
+    font-size: small;
+    font-family: arial, sans-serif; 
+}
+
+
+a {
+	text-decoration: none;
+	color: #666;
+	display: inline-block;
+	
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+li {
+	min-height: 40px;
+	display: inline-block;
+  	vertical-align: middle;
+  	line-height: normal;
+  	text-align: center;
+  	position: relative;
+}
+
+.profile {
+    background-size: 32px 32px;
+    border-radius: 50%;
+    display: inline-block;
+    height: 32px;
+    margin: -1px;
+    width: 32px;
+}
+
+#logo {
+	border: 0;
+	width: 269;
+	height: 95;
+	padding: 48px 0 14px;
+	vertical-align: middle;
+}
+
+.topBarText {
+	float: right;
+	margin: 5px;
+}
+
+.topRight {
+	float: right;
+	display: inline-block;
+	margin: 5px;
+}
+
+.bottomLeft{
+	float: left;
+	display: inline-block;
+	margin: 5px;
+	text-align: center;
+}
+
+.bottomRight{
+	float: right;
+	display: inline-block;
+	margin: 5px;
+}
+
+#bBar{
+	background: #F2F2F2 none repeat scroll 0% 0%;
+	border-top: 1px solid #E4E4E4;
+	height: 40px;
+	bottom: 0%;
+	min-width: 940px;
+	width: 100%;
+	position: fixed;
+}
